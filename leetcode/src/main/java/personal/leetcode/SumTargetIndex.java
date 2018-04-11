@@ -5,10 +5,10 @@ import java.util.Map;
 
 /**
  * @author bisnail 
- * 			´ÓÊı×éÖĞÕÒ³öÁ½¸öÊı£¬Ê¹ÆäºÍÎªÌØ¶¨Öµtarget¡£ÀıÈçnums = [2, 7, 11, 15], target =
- *         9£¬ÒòÎª2+7=9£¬·µ»Ø[0, 1]
+ * 			ä»æ•°ç»„ä¸­æ‰¾å‡ºä¸¤ä¸ªæ•°ï¼Œä½¿å…¶å’Œä¸ºç‰¹å®šå€¼targetã€‚ä¾‹å¦‚nums = [2, 7, 11, 15], target =
+ *         9ï¼Œå› ä¸º2+7=9ï¼Œè¿”å›[0, 1]
  */
-public class Solution {
+public class SumTargetIndex {
 	public static int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];
 		Map<Integer, Integer> map = new HashMap<>();
@@ -33,7 +33,7 @@ public class Solution {
 		nums[2] = 11;
 		nums[3] = 5;
 		int target = 9;
-		int[] result = Solution.twoSum(nums, target);
+		int[] result = SumTargetIndex.twoSum(nums, target);
 		System.out.println(result[0]);
 		System.out.println(result[1]);
 	}
